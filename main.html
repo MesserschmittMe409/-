@@ -54,8 +54,8 @@
 <script>
   function checkStage1() {
     const ans = document.getElementById("stage1-answer").value.trim();
-    if (ans.toLowerCase() === "actusreg-x-001") {
-      document.getElementById("stage1-result").innerText = "薬品室へ進め。";
+    if (ans.toUpperCase() === "MEMORY") {
+      document.getElementById("stage1-result").innerText = "✅ 正解！薬品室へ進め。";
     } else {
       document.getElementById("stage1-result").innerText = "❌ 不正解。カルテをもう一度確認せよ。";
     }
@@ -325,6 +325,7 @@ STAGE3-3追加　ここまで -->
 </body>
 
 </html>
+
 
 
 
